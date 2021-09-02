@@ -1,0 +1,146 @@
+table tr td {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+table tr td {
+    color: #5f6368;
+}
+.table tbody tr td a.title {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    position: relative;
+    overflow: hidden;
+    line-height: 1.5rem;
+
+    --ripple-color: rgba(0, 0, 0, 0.08);
+}
+h1,
+h2,
+h3,
+h5,
+h6 {
+    font-weight: 700;
+}
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont,
+        "Apple Color Emoji", "Helvetica Neue", sans-serif;
+    color: #000;
+    /* overflow: hidden; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.bg-light {
+    background-color: #fff !important;
+    height: 70px;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 30px rgb(0 0 0 / 15%);
+}
+.background-gray {
+    background: rgb(242 242 242);
+    color: #1c1e21;
+}
+.background-white {
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.page-title {
+    clear: both;
+}
+.page-title > .left {
+    float: left;
+}
+
+.page-title > .right {
+    float: right;
+}
+
+form {
+    margin: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+label {
+    font-weight: 600;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.text-no--data {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0279c7;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+#loading {
+    text-align: center;
+    padding: 10px 0px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 5px 5px 15px rgb(0 0 0 / 30%);
+}
+
+div#post_wrapper {
+    position: relative;
+}
+
+/* Media */
+.wrap ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap ul li {
+    list-style: none;
+}
+
+.wrap ul li .file-man-box {
+    margin: 10px;
+    height: 150px;
+}
+.selected {
+    border: 2px solid #0d6efd;
+    padding: 3px;
+}
+.wrap ul li .file-man-box > .file-img-box img {
+    max-width: 100%;
+    height: 100%;
+    min-height: auto;
+    margin: 0 auto;
+}
+.wrap ul li .file-man-box > .file-img-box {
+    height: 100px;
+    text-align: center;
+}
+.wrap ul li .file-man-title {
+    /* overflow: hidden; */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrap ul li .file-man-title h5 {
+    font-size: 12px;
+    text-align: center;
+}
+/* End Media */
